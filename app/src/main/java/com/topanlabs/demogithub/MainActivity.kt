@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        //commit kedua
         setSupportActionBar(binding.toolbar)
         //bikin home
         val navController = findNavController(R.id.nav_host_fragment_content_main)
